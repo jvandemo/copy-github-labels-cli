@@ -28,6 +28,10 @@ $ copy-github-labels -t e7ac7612021979b8884f6f11236c65e7723da8c1 angular/angular
 
 > The token above is just an example token, not a real token. You should [generate your own token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/).
 
+The output shows whether or not the copy failed for each label individually:
+
+![copy-github-labels](https://cloud.githubusercontent.com/assets/1859381/10329347/702b3700-6cc0-11e5-9513-de309d44e314.png)
+
 ## FAQ
 
 #### Where can I get a token?
