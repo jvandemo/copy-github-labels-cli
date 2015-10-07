@@ -56,6 +56,10 @@ MIT
 
 ## Change log
 
+### 1.0.0
+
+- Released production version
+
 ### 0.2.0
 
 - Added error handling

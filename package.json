@@ -1,6 +1,6 @@
 {
   "name": "copy-github-labels-cli",
-  "version": "1.2.0",
+  "version": "1.0.0",
   "description": "CLI tool to copy github labels",
   "keywords": [
     "cli",
