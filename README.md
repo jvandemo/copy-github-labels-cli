@@ -36,11 +36,11 @@ Check out the GitHub guide: [Creating an access token for command-line use](http
 
 #### I'm getting an error "Unknown label: failed (Validation Failed)"
 
-GitHub refuses to copy the label because it is already present in the destination repository.
+This happens when GitHub refuses to copy the label because it is already present in the destination repository.
 
 #### I'm getting an error "Unknown label: failed (Not Found)"
 
-The destination repository cannot be found.
+This happens when the destination repository cannot be found.
 
 ## License
 
