@@ -1,10 +1,12 @@
 # Copy GitHub Labels CLI
 
-[![Build Status](https://travis-ci.org/jvandemo/copy-github-labels-cli.svg?branch=master)](https://travis-ci.org/jvandemo/copy-github-labels-cli)
-
 CLI tool to copy GitHub labels from one repository to another.
 
-> If you want to copy GitHub labels in a script, please use [copy-github-labels](https://github.com/jvandemo/copy-github-labels) to avoid unnecessary dependencies.
+[![Build Status](https://travis-ci.org/jvandemo/copy-github-labels-cli.svg?branch=master)](https://travis-ci.org/jvandemo/copy-github-labels-cli)
+
+![octocat](https://cloud.githubusercontent.com/assets/1859381/5422531/40186cf0-8287-11e4-941c-96cabdb3fb24.jpg)
+
+> If you only want to copy GitHub labels in a script and don't need a CLI, please use [copy-github-labels](https://github.com/jvandemo/copy-github-labels) to avoid unnecessary dependencies.
 
 ## Installation
 
