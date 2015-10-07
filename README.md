@@ -38,6 +38,10 @@ The output shows whether or not the copy failed for each label individually:
 
 Check out the GitHub guide: [Creating an access token for command-line use](https://help.github.com/articles/creating-an-access-token-for-command-line-use/).
 
+#### I'm getting an error "Unknown label: failed (Bad credentials)"
+
+This happens when your token is not valid.
+
 #### I'm getting an error "Unknown label: failed (Validation Failed)"
 
 This happens when GitHub refuses to copy the label because it is already present in the destination repository.
