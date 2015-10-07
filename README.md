@@ -26,7 +26,7 @@ To copy all labels from `angular/angular` to `jvandemo/test`:
 $ copy-github-labels -t e7ac7612021979b8884f6f11236c65e7723da8c1 angular/angular jvandemo/test
 ```
 
-> The token above is just an example token, not a real token. You should [generate your own token]((https://help.github.com/articles/creating-an-access-token-for-command-line-use/)).
+> The token above is just an example token, not a real token. You should [generate your own token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/).
 
 ## FAQ
 
