@@ -20,7 +20,7 @@
   },
   "preferGlobal": true,
   "bin": {
-    "github-copy-labels": "cli.js"
+    "copy-github-labels": "cli.js"
   },
   "scripts": {
     "test": "eslint cli.js"
