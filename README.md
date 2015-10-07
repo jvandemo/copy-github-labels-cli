@@ -4,7 +4,7 @@
 
 CLI tool to copy GitHub labels from one repository to another.
 
-If you want to copy GitHub labels in a script, please use [copy-github-labels](https://github.com/jvandemo/copy-github-labels) to avoid unnecessary dependencies.
+> If you want to copy GitHub labels in a script, please use [copy-github-labels](https://github.com/jvandemo/copy-github-labels) to avoid unnecessary dependencies.
 
 ## Installation
 
@@ -12,13 +12,27 @@ If you want to copy GitHub labels in a script, please use [copy-github-labels](h
 $ npm install -g copy-github-labels-cli
 ```
 
-## Quick example
+## Usage
 
 ```bash
-$ 
+$ copy-github-labels -t <token> <source-repo> <destination-repo>
 ```
 
+## Example
+
+To copy all labels from `angular/angular` to `jvandemo/test`:
+
+```bash
+$ copy-github-labels -t e7ac7612021979b8884f6f11236c65e7723da8c1 angular/angular jvandemo/test
+```
+
+> The token above is just an example token, not a real token. You should [generate your own token]((https://help.github.com/articles/creating-an-access-token-for-command-line-use/)).
+
 ## FAQ
+
+#### Where can I get a token?
+
+Check out the GitHub guide: [Creating an access token for command-line use](https://help.github.com/articles/creating-an-access-token-for-command-line-use/).
 
 #### I'm getting an error "Unknown label: failed (Validation Failed)"
 
