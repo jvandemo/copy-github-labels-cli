@@ -2,7 +2,9 @@
   "name": "copy-github-labels-cli",
   "version": "1.0.0",
   "description": "CLI tool to copy github labels",
-  "engines": { "node": ">=4.9.0" },
+  "engines": {
+    "node": ">=4.9.0"
+  },
   "keywords": [
     "cli",
     "cli-app",
