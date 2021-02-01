@@ -7,25 +7,27 @@ var source,
     destination,
     count = 0;
 
-var cli = meow({
-  help: [
-    'Usage',
-    '  $ copy-github-labels -t <token> <source-repo> <destination-repo>',
-    '',
-    'Options',
-    '  -d           Dry run, don\'t actually copy anything' ,
-    '  -t, --token  Token to authenticate with GitHub API' ,
-    '',
-    'Examples',
-    '  $ copy-github-labels -t token jvandemo/source-repo jvandemo/destination-repo',
-  ]
-}, {
-  boolean: [
-    'd'
-  ],
-  alias: {
-    t: 'token'
-  }
+const cli = meow(`
+    Usage
+      $ copy-github-labels -t <token> <source-repo> <destination-repo>
+    
+    Options
+      -d           Dry run, don\'t actually copy anything
+      -t, --token  Token to authenticate with GitHub API
+    
+    Examples
+      $ copy-github-labels -t token jvandemo/source-repo jvandemo/destination-repo
+`, {
+	flags: {
+		dryRun: {
+			type: 'boolean',
+			alias: 'd'
+		},
+		token: {
+			type: 'string',
+			alias: 't'
+		}
+	}
 });
 
 if (!cli.flags.token) {
