@@ -1,7 +1,50 @@
 {
-  "name": "copy-github-labels-cli",
-  "version": "1.0.0",
+  "_from": "copy-github-labels-cli",
+  "_id": "copy-github-labels-cli@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-EGDPPw6Fq2i8JjJhsEgOUuoT//U=",
+  "_location": "/copy-github-labels-cli",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "copy-github-labels-cli",
+    "name": "copy-github-labels-cli",
+    "escapedName": "copy-github-labels-cli",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/copy-github-labels-cli/-/copy-github-labels-cli-1.0.0.tgz",
+  "_shasum": "1060cf3f0e85ab68bc263261b0480e52ea13fff5",
+  "_spec": "copy-github-labels-cli",
+  "_where": "C:\\Users\\lpghu",
+  "author": {
+    "name": "Jurgen Van de Moere",
+    "email": "jurgen.van.de.moere@gmail.com",
+    "url": "http://www.jvandemo.com"
+  },
+  "bin": {
+    "copy-github-labels": "cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/jvandemo/copy-github-labels-cli/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "copy-github-labels": "^2.0.0",
+    "meow": "^9.0.0"
+  },
+  "deprecated": false,
   "description": "CLI tool to copy github labels",
+  "devDependencies": {
+    "eslint": "^7.19.0"
+  },
+  "homepage": "https://github.com/jvandemo/copy-github-labels-cli#readme",
   "keywords": [
     "cli",
     "cli-app",
@@ -9,29 +52,15 @@
     "github",
     "labels"
   ],
-  "author": {
-    "name": "Jurgen Van de Moere",
-    "email": "jurgen.van.de.moere@gmail.com",
-    "url": "http://www.jvandemo.com"
-  },
+  "license": "MIT",
+  "name": "copy-github-labels-cli",
+  "preferGlobal": true,
   "repository": {
     "type": "git",
-    "url": "http://github.com/jvandemo/copy-github-labels-cli.git"
-  },
-  "preferGlobal": true,
-  "bin": {
-    "copy-github-labels": "cli.js"
+    "url": "git+ssh://git@github.com/jvandemo/copy-github-labels-cli.git"
   },
   "scripts": {
     "test": "eslint cli.js"
   },
-  "license": "MIT",
-  "dependencies": {
-    "chalk": "^1.1.1",
-    "copy-github-labels": "^2.0.0",
-    "meow": "^3.4.1"
-  },
-  "devDependencies": {
-    "eslint": "^1.6.0"
-  }
+  "version": "1.0.0"
 }
