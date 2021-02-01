@@ -79,8 +79,8 @@ copyGitHubLabels.copy(source, destination, function (err, label){
   var error = JSON.parse(err);
   var labelName = 'Unknown label';
 
-  if(label && label.name){
-    labelName = label.name;
+  if(label && label.data.name){
+    labelName = label.data.name;
   }
 
   count++;
